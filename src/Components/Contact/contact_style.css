@@ -1,0 +1,154 @@
+/* Contact info style */
+.contact_info{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact_info > div{
+  width: 32%;
+  margin: 5px;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact_info h3{
+  font-size: 15px;
+  font-weight: 500;
+  color: #5B33FF;
+}
+
+.contact_info p{
+  font-size: 14px;
+}
+
+/* Contact form style */
+.contact_form{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 60px !important;
+    height: auto;
+    box-shadow: 1px 1px 10px #dddddd;
+  }
+
+  .form_div{
+    padding: 40px 50px;
+  
+  }
+
+  .contact_form input{
+    width: 32%;
+    padding: 10px 15px;
+    outline: none;
+    margin: 10px 5.8px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+  }
+
+  .contact_form input:focus{
+    border: 1px solid #5B33FF;
+  }
+
+  .contact_form textarea{
+    width: 99%;
+    margin: 2px 5px;
+    border: 1px solid #dddddd;
+    outline: none !important;
+    padding: 10px 15px;
+
+  }
+
+  .contact_form textarea:focus{
+    border: 1px solid #5B33FF !important;
+  }
+
+  .contact_form h2{
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .contact_form button{
+    background-color: #5B33FF;
+    border : 2px solid #5B33FF;
+    padding: 10px 30px;
+    font-weight: 500;
+    color: white;
+    border-radius: 20px;
+    margin: 5px;    
+    cursor: pointer;
+    transition: 0.3s;
+
+  }
+
+  .contact_form button:hover{
+    background-color: white;
+    color: #5B33FF;
+    transition: 0.3s;
+
+  }
+
+  .showRes{
+    display: inline-block;
+  }
+
+  .hideRes{
+    display: none;
+  }
+
+  .success{
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: 400;
+    color: green;
+  }
+
+  .failed{
+    font-size: 13px;
+    color: tomato;
+    margin-left: 5px;
+    font-weight: 400;
+  }
+
+
+  /* -------------------------Mobile View------------------------- */
+  @media (max-width: 768px){
+    .contact_info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact_info > div{
+      width: 100%;
+      margin: 5px;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .contact_form{
+      width: 90% !important;
+      height: auto;
+      margin-top: 20px;
+
+    }
+
+    .contact_form h2{
+      font-size: 30px;
+    }
+    
+    .contact_form input{
+      display: block;
+      width: 100%;
+      margin: 15px 0;
+    }
+
+    .form_div{
+      padding: 40px 30px;
+    
+    }
+  }
+
+

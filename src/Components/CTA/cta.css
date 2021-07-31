@@ -1,0 +1,53 @@
+.ctaContainer{
+    width: 65%;
+    height: auto;
+    background: #5B33FF;
+    border-radius: 18px;
+    color: white;
+    display: flex;
+    margin: 100px auto;
+}
+.innerInfo{
+    width: 70%;
+    padding: 50px 40px;
+}
+.innerInfo h2{
+    font-weight: 500;
+}
+.innerInfo p{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.innerInfo button{
+    background-color: white;
+    border : 2px solid white;
+    padding: 10px 30px;
+    font-weight: 500;
+    color: #5B33FF;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.innerInfo button:hover{
+    border : 2px solid white;
+    background: #5B33FF;
+    color: white;
+    transition: 0.3s;
+}
+
+@media screen and (max-width:768px){
+    .ctaContainer{
+        width: 80%;
+    }
+    .innerInfo{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .innerImg{
+        display: none;
+    }
+    .innerInfo button{
+        padding: 8px 20px;
+    }
+}

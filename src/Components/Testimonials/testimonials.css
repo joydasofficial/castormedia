@@ -1,0 +1,60 @@
+.sliderContainer{
+    width: 60%;
+    height: auto;
+    margin: 5rem auto;
+}
+.slick-prev:before, .slick-next:before {
+    color: #5B33FF !important;
+  }
+.testiCard{
+    margin-top: 50px;
+}
+.testiCard > div{
+    display: block;
+    text-align: center;
+}
+
+.slick-slide img {
+    display: block;
+    margin: auto;
+}
+
+.clientImgContainer img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.feedback{
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    color: #595959;
+
+}
+
+.clientInfo{
+    color: #595959;
+}
+
+.clientInfo h3{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.clientInfo p{
+    font-size: 13px;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+@media screen and (max-width:768px) {
+    .sliderContainer{
+        width: 90%;
+        padding: 0 15px;
+    }
+    .feedback p{
+        font-size: 14px;
+    }
+}

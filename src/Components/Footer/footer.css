@@ -1,0 +1,100 @@
+.footer_main{
+    width: 100%;
+    height: auto;
+    background-color: #5B33FF;
+    border-top: 1px solid #d6d6d6;
+}
+
+.footer_main h3{
+    text-align: center;
+    font-size: 14px;
+    padding: 40px;
+    font-weight: 400;
+    margin-top: 50px;
+    color: rgb(165, 165, 165);
+
+}
+
+.inner_footer{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.inner_footer a{
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+
+}
+
+.flogo h2 a{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.flinks a{
+    margin: 0 25px;
+    font-weight: 500;
+}
+
+.fsocial{
+    text-align: center;
+}
+
+.fsocial a{
+    margin: 0 15px;
+
+}
+
+.inner_footer div:not(:nth-child(2)){
+    width: 25%;
+    box-sizing: border-box;
+}
+
+@media (max-width:768px) {
+
+    .inner_footer{
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    .footer_main h3{
+        font-size: 12px;
+        padding: 13px;
+
+    }
+
+    .flogo{
+        margin-bottom: 20px !important;
+    }
+
+    .inner_footer div{
+        display: block;
+        width: 90% !important;
+        margin: auto;
+    }
+    .flinks{
+        display: flex !important;
+        flex-direction: column;
+        margin: 0 !important;
+        
+    }
+    .flinks a{
+        text-align: left;
+        padding: 10px 0;
+    }
+
+    .fsocial{
+        padding: 30px 0;
+    }
+
+    .footer_main h3{
+        margin-top: 0 !important;
+    }
+}

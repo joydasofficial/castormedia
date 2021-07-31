@@ -1,0 +1,94 @@
+
+/* Hero Style  */
+.hero_section{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 80% ;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  
+  .animation{
+    background:"transparent";
+    width: 300px; 
+    height: 300px;
+  }
+  
+  .hero_info{
+    width: 60%;
+    padding: 20px;
+  }
+  
+  .hero_info h1{
+    font-size: 50px;
+    font-weight: 800;
+  }
+  
+  .cname{
+    font-size: 50px;
+    font-weight: 800;
+    color: #5B33FF;
+  }
+  
+  .getStarted{
+    background-color: #5B33FF;
+    border : 2px solid #5B33FF;
+    padding: 10px 30px;
+    font-weight: 500;
+    color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+
+  }
+  
+  .getStarted:hover{
+    background-color: white;
+    color: #5B33FF;
+    transition: 0.3s;
+
+  }
+  
+  .hero_img{
+    width: 40%;
+    overflow: hidden;
+    padding-bottom: 150px;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .hero_section{
+      margin-top: 4rem;
+      width: 100% !important;
+    }
+
+    .hero_info {
+      width: 90%;
+      padding: 20px;
+      margin: auto;
+   }
+
+    .hero_info h1 {
+    font-size: 26px;
+    font-weight: 800;
+   }
+
+   .hero_info p{
+     font-size: 14px;
+   }
+
+   .cname{
+     font-size: 26px;
+   }
+
+   .getStarted{
+    padding: 8px 20px;
+   }
+
+   .hero_img{
+     width: 70%;
+     margin: auto;
+   }
+}
