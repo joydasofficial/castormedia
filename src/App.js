@@ -17,6 +17,7 @@ const App = () =>{
           <MobileNavigation />
           <Switch>
             <Route exact path='/' component = {Home} />
+            <Route exact path='/castormedia' component = {Home} />
             <Route exact path='/about' component= {About} />
             <Route exact path='/services' component= {Services} />
             <Route exact path='/portfolio' component= {Portfoilo} />
