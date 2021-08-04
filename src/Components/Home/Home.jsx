@@ -4,7 +4,7 @@ import Portfoilo from '../Portfolio/Portfolio';
 import AboutCommon from '../AboutCommon';
 import ServicesCommon from '../ServicesCommon';
 import { NavLink } from 'react-router-dom';
-import Testimonails from '../Testimonials/Testimonails';
+import Testimonials from '../Testimonials/Testimonials';
 
 import Cta from '../CTA/Cta';
 
@@ -28,7 +28,7 @@ const Home = () => {
             <ServicesCommon />
             <Portfoilo />
             <Cta />
-            <Testimonails />
+            <Testimonials />
         </>
     );
 };

@@ -6,7 +6,7 @@ import Slider from 'react-slick';
 import TestimonialsCard from '../TestimonialsCard';
 import TestimonialsFeed from '../TestimonialsFeed';
 
-const Testimonails = () => {
+const Testimonials = () => {
 
     const settings = {
         dots: false,
@@ -41,4 +41,4 @@ const Testimonails = () => {
     )
 }
 
-export default Testimonails;
+export default Testimonials;
