@@ -9,10 +9,12 @@ import './index.css'
 import Footer from './Components/Footer/Footer';
 import MobileNavigation from './Components/NavBar/MobileNavigation';
 import Portfoilo from './Components/Portfolio/Portfolio';
+import ScrollToTop from './Components/ScrollToTop';
 
 const App = () =>{
     return (
-      <>
+      <>  
+          <ScrollToTop />
           <Navigation />
           <MobileNavigation />
           <Switch>
