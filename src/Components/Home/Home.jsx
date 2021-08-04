@@ -4,8 +4,9 @@ import Portfoilo from '../Portfolio/Portfolio';
 import AboutCommon from '../AboutCommon';
 import ServicesCommon from '../ServicesCommon';
 import { NavLink } from 'react-router-dom';
-import Cta from '../CTA/Cta';
 import Testimonails from '../Testimonials/Testimonails';
+
+import Cta from '../CTA/Cta';
 
 const Home = () => {
     return (
